@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    height: 80px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgba(255, 102, 0, 0.966);
+    padding-left: 50px;
+    text-decoration: none;
+
+}
+
+.navbar {
+    display: inline-block;
+    padding-left: 250px;
+}
+
+
+.navbar a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: rgb(253, 247, 247);
+
+}
+
+
+
+.features h1 {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.features .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    gap: 1rem;
+}
+
+.features .container .box {
+    padding: 10px;
+    text-align: center;
+    background: black;
+}
+
+
+.features .container .box img {
+    margin: 1rem 0;
+    height: 20rem;
+}
+
+.features .container .box h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.features .container h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.features h1 span {
+    color: rgb(255, 135, 31)
+}
+
+.features .container .box p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #fff;
+}
+
+.categories .container-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.categories .container-box .cate-box {
+    padding: 30px;
+    background: #fff;
+    text-align: center;
+    border: 1px rgba(25, 241, 187, 0.986) solid;
+}
+
+
+.categories .container-box .cate-box img {
+    margin: 1rem 0;
+    height: 12rem;
+}
+
+.categories .container-box .cate-box h3 {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.categories h1 span {
+    color: rgb(255, 123, 7)
+}
+
+.categories .container-box .cate-box p {
+    font-size: 1rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.categories h1 {
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.cont {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.skills h2 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progress {
+    background: #959595;
+    ;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress div {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress div span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.htm {
+    background: aqua;
+}
+
+.css {
+    background-color: rgb(255, 81, 0);
+}
+
+.js {
+    background-color: rgb(0, 255, 64);
+}
+
+.ds {
+    background-color: rgb(0, 13, 255);
+}
+
+.algoritms {
+    background-color: rgb(255, 0, 132);
+}
+
+.python {
+    background-color: rgb(153, 255, 0);
+}
+
+.c {
+    background-color: rgb(229, 255, 0);
+}
+
+.sql {
+    background-color: rgb(255, 0, 195);
+}
+
+.progress .htm {
+    width: 95%;
+}
+
+.progress .css {
+    width: 95%;
+}
+
+.progress .js {
+    width: 70%;
+}
+
+.progress .ds {
+    width: 70%;
+}
+
+.progress .algoritms {
+    width: 60%;
+}
+
+.progress .python {
+    width: 70%;
+}
+
+.progress .c {
+    width: 80%;
+}
+
+.progress .sql {
+    width: 30%;
+}
+
+#contact-color {
+    background-color: white;
+}
+
+#contact-color h3 {
+    color: black;
+}
+
+.footer {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
